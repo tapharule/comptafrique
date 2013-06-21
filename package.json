@@ -4,16 +4,17 @@
   "description": "bootweb app module for store managment",
   "keywords": ["bootweb", "compta", "afrique"],
   "contributors": [
-      { "name": "Nicolas Karageuzian", "email": "nico@karageuzian.com", "name": "Mustapha Gaye", "email": "tapharule@gmail.com" }
+      {"name": "Mustapha Gaye", "email": "tapharule@gmail.com" },
+      { "name": "Nicolas Karageuzian", "email": "nico@karageuzian.com"}
     ],
-    "homepage": "https://a.definir.com/",
+    "homepage": "https://github.com/tapharule/comptafrique",
     "bugs":{
-    "url" : "https://a.definir.com/",
+    "url" : "https://github.com/tapharule/comptafrique",
     "email" : "a@kdefinir.com"
     },
     "repository" :
   { "type" : "git"
-  , "url" : "https://a.definir.com/repo.git"
+  , "url" : "https://github.com/tapharule/comptafrique.git"
   },
   "dependencies" :
     { "bootweb" : "git+https://github.com/nka11/bootweb.git"
