@@ -4,8 +4,8 @@
   "description": "bootweb app module for store managment",
   "keywords": ["bootweb", "compta", "afrique"],
   "contributors": [
-      {"name": "Mustapha Gaye", "email": "tapharule@gmail.com" }
-      { "name": "Nicolas Karageuzian", "email": "nico@karageuzian.com"},
+      {"name": "Mustapha Gaye", "email": "tapharule@gmail.com" },
+      { "name": "Nicolas Karageuzian", "email": "nico@karageuzian.com"}
     ],
     "homepage": "https://github.com/tapharule/comptafrique",
     "bugs":{
