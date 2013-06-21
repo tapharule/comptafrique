@@ -80,8 +80,7 @@ comptApp.mapUrls = function(app, cb){
         .render({
           // values required for layout
           prefix : comptApp.options.prefix,
-          user: req.user,
-          stores: comptApp.manager.stores
+          user: req.user
           // other values
         }));
   });
