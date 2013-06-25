@@ -18,11 +18,12 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 */
-var bootweb = require('bootweb'),
-  conn,
-  logger = bootweb.getLogger('bootweb-store'), //facilité de logs
-  _ = require("util"),
-  EventEmitter = require('events').EventEmitter,
+var bootweb = require('bootweb'), // import de la bibliotheque bootweb
+  path = require("path"), // lib path (voir doc nodejs)
+  conn, // reference future pour la connexion
+  logger = bootweb.getLogger('bootweb-compta'), //facilité de logs
+  _ = require("util"), // import de lib utilitaire
+  EventEmitter = require('events').EventEmitter, // Import objet de lib evenement
   /**
    * Définition de l'application compta
    */
@@ -48,18 +49,20 @@ comptApp.init = function(options, cb) { // Bootweb apelle en premier l'init de l
   if (typeof options.prefix === "undefined") { // le prefix est obligatoire
     options.prefix = "/compta/"; 
   }
-  logger.info("Ajout des templates de l'appli : " + __dirname + "/templates");
-  bootweb.templatesDirs.push(__dirname + "/templates");
   this.options = options;
-  cb(null, comptApp); // appel du callback
+  // on rajoute nos ressources statiques (mount sur /)
+  
+  bootweb.addStaticDir(path.join(__dirname , "static"));
+  logger.info("Ajout des templates de l'appli : " + __dirname + "/templates");
+  bootweb.addTemplateDir(path.join(__dirname , "templates"), function() {
+    cb(null, comptApp); // appel du callback
+  });
 }
 
 /**
  * Trigger sur l'event ready de bootweb 
  */
 bootweb.on("ready", function(){ // Une fois que bootweb est 'ready' (connecté à la DBB, écoute sur les ports)
-   // on rajoute nos ressources statiques (mount sur /)
-  bootweb.addStaticDir(__dirname + "/static");
   conn = bootweb.getConnection();
   // on fera l'initialisation des objets et du modèle ici
   
