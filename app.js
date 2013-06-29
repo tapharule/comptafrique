@@ -27,7 +27,7 @@ var bootweb = require('bootweb'), // import de la bibliotheque bootweb
   /**
    * Définition de l'application compta
    */
-  comptApp = new EventEmitter(); // notre appli est capable d'emettre des evenements
+  comptApp = new bootweb.App(); // notre appli est capable d'emettre des evenements
   
 
 /**
@@ -38,7 +38,7 @@ comptApp.init = function(options, cb) { // Bootweb apelle en premier l'init de l
   if (cb == null && typeof options === "function") { //si appel sans callback
     cb = options;
     options = { // options par défaut
-      "prefix": "/compta/"  
+      "prefix": "/compta/"  // prefix http (http://host:/compta dans cet exemple)
     };
   }
   if (options === undefined) { // options par défaut
