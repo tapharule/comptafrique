@@ -64,8 +64,8 @@ comptApp.init = function(options, cb) { // Bootweb apelle en premier l'init de l
  */
 bootweb.on("ready", function(){ // Une fois que bootweb est 'ready' (connecté à la DBB, écoute sur les ports)
   conn = bootweb.getConnection();
-  // on fera l'initialisation des objets et du modèle ici
-  
+  // on fera l'initialisation des objets dans le fichier model.js
+  var model = require("./model");
   /**
    * Initializing io events and interactions (see socket.io documentation)
    * (controlleur socket)
