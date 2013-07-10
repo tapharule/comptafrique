@@ -27,7 +27,7 @@ var bootweb = require('bootweb'), // import de la bibliotheque bootweb
   /**
    * Définition de l'application compta
    */
-  comptApp = new EventEmitter(); // notre appli est capable d'emettre des evenements
+  comptApp = new bootweb.App(); // notre appli est capable d'emettre des evenements
   
 
 /**
@@ -38,7 +38,7 @@ comptApp.init = function(options, cb) { // Bootweb apelle en premier l'init de l
   if (cb == null && typeof options === "function") { //si appel sans callback
     cb = options;
     options = { // options par défaut
-      "prefix": "/compta/"  
+      "prefix": "/compta/"  // prefix http (http://host:/compta dans cet exemple)
     };
   }
   if (options === undefined) { // options par défaut
@@ -64,8 +64,8 @@ comptApp.init = function(options, cb) { // Bootweb apelle en premier l'init de l
  */
 bootweb.on("ready", function(){ // Une fois que bootweb est 'ready' (connecté à la DBB, écoute sur les ports)
   conn = bootweb.getConnection();
-  // on fera l'initialisation des objets et du modèle ici
-  
+  // on fera l'initialisation des objets dans le fichier model.js
+  var model = require("./model");
   /**
    * Initializing io events and interactions (see socket.io documentation)
    * (controlleur socket)
