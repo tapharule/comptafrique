@@ -22,7 +22,7 @@ var bootweb = require("bootweb"),
     },
     number: {
       type: Number,
-      default: false
+      required: true
     }
   }, {strict: false});
 

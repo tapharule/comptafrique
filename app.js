@@ -24,6 +24,7 @@ var bootweb = require('bootweb'), // import de la bibliotheque bootweb
   logger = bootweb.getLogger('bootweb-compta'), //facilité de logs
   _ = require("util"), // import de lib utilitaire
   EventEmitter = require('events').EventEmitter, // Import objet de lib evenement
+  Plan, // objets de la bdd, pourront etre intialisés dans le trigger init
   /**
    * Définition de l'application compta
    */
@@ -70,6 +71,7 @@ bootweb.on("ready", function(){ // Une fois que bootweb est 'ready' (connecté �
    * Initializing io events and interactions (see socket.io documentation)
    * (controlleur socket)
    */
+   plan = conn.model('Plan');
   bootweb.io.on("connection", function(socket) {
    // handle socket messages for authenticated users
     if (socket.handshake.user != null && socket.handshake.user.email !== "anonymous") {
