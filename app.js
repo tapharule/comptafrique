@@ -71,7 +71,7 @@ bootweb.on("ready", function(){ // Une fois que bootweb est 'ready' (connect√© √
    * Initializing io events and interactions (see socket.io documentation)
    * (controlleur socket)
    */
-   plan = conn.model('Plan');
+   Plan = conn.model('Plan');
   bootweb.io.on("connection", function(socket) {
    // handle socket messages for authenticated users
     if (socket.handshake.user != null && socket.handshake.user.email !== "anonymous") {
