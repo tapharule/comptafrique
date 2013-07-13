@@ -5,7 +5,9 @@
   "keywords": ["bootweb", "compta", "afrique"],
   "contributors": [
       {"name": "Mustapha Gaye", "email": "tapharule@gmail.com" },
-      { "name": "Nicolas Karageuzian", "email": "nico@karageuzian.com"}
+      { "name": "Nicolas Karageuzian", "email": "nico@karageuzian.com"},
+      { "name": "Andre Kamara", "email": "andrekamara@ymail.com"},
+      { "name": "Julio Dabo", "email": "julioprocesil@gmail.com"}
     ],
     "homepage": "https://github.com/tapharule/comptafrique",
     "bugs":{
