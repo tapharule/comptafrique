@@ -71,7 +71,7 @@ bootweb.on("ready", function(){ // Une fois que bootweb est 'ready' (connect√© √
    * Initializing io events and interactions (see socket.io documentation)
    * (controlleur socket)
    */
-   Plan = conn.model('Plan');
+   Plan = conn.model('Plan'); // http://mongoosejs.com/docs/api.html#model_Model
   bootweb.io.on("connection", function(socket) {
    // handle socket messages for authenticated users
     if (socket.handshake.user != null && socket.handshake.user.email !== "anonymous") {
@@ -97,6 +97,43 @@ comptApp.mapUrls = function(app, cb){
           user: req.user
           // other values
         }));
+  });
+  app.get(comptApp.options.prefix + "plan", function(req, res, next) {
+    Plan.find({},function(err, plans) {
+      res.send(bootweb.swig.compileFile("plan.html")
+        .render({
+          // values required for layout
+          prefix : comptApp.options.prefix,
+          user: req.user,
+          plans:plans
+          // other values
+        }));
+    });
+    
+  });
+  app.post(comptApp.options.prefix + "plan", function(req, res, next) {
+    var plan = new Plan({ // voir http://mongoosejs.com/docs/api.html#model_Model
+      name: req.body.name,
+      classe: req.body.classe,
+      number: req.body.number
+    });
+    plan.save(function(err) { 
+      
+      if (err != null) {
+        return bootweb.renderError(req,res,{err: err,code: 500});
+      }
+      Plan.find({},function(err, plans) {
+        //renvoyer la page avec tous les plans
+        res.send(bootweb.swig.compileFile("plan.html")
+          .render({
+            // values required for layout
+            prefix : comptApp.options.prefix,
+            user: req.user,
+            plans:plans
+            // other values
+          }));
+        });
+    });
   });
 }
 
