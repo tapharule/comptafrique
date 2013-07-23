@@ -35,6 +35,11 @@ var bootweb = require('bootweb'), // import de la bibliotheque bootweb
  * Pour que Bootweb démarre notre appli, nous devons faire une function d'initialisation
  */
 comptApp.init = function(options, cb) { // Bootweb apelle en premier l'init de l'appli
+  conn = bootweb.getConnection(); // initialisation de l'objet connexion (dans chaque module qui en aura besoin)
+  // on fera l'initialisation des objets dans le fichier model.js
+  var model = require("./model"); // chargement des modèles (ce seul appel suffira pour tous les modules)
+  
+  Plan = conn.model('Plan'); // on récupere un type Model : http://mongoosejs.com/docs/api.html#model_Model
   logger.info("Starting compta initialization");
   if (cb == null && typeof options === "function") { //si appel sans callback
     cb = options;
@@ -63,15 +68,13 @@ comptApp.init = function(options, cb) { // Bootweb apelle en premier l'init de l
 /**
  * Trigger sur l'event ready de bootweb 
  */
-bootweb.on("ready", function(){ // Une fois que bootweb est 'ready' (connecté à la DBB, écoute sur les ports)
-  conn = bootweb.getConnection();
-  // on fera l'initialisation des objets dans le fichier model.js
-  var model = require("./model");
+bootweb.on("ready", function(){
+  
   /**
    * Initializing io events and interactions (see socket.io documentation)
    * (controlleur socket)
    */
-   Plan = conn.model('Plan'); // http://mongoosejs.com/docs/api.html#model_Model
+   
   bootweb.io.on("connection", function(socket) {
    // handle socket messages for authenticated users
     if (socket.handshake.user != null && socket.handshake.user.email !== "anonymous") {
