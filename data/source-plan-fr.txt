@@ -1,0 +1,235 @@
+ 	CLASSE 1 : 	COMPTES DE CAPITAUX 	
+	  	
+			
+		101. 	Capital 	
+	  	
+		105. 	Ecarts de réévaluation  	
+	  	
+			1061. 	Réserve légale  	
+	  	
+			1063. 	Réserves statutaires ou contractuelles  	
+	  	
+			1064. 	Réserves réglementées  	
+	  	
+			1068. 	Autres réserves 	
+	  	
+		108. 	Compte de l'exploitant 	
+	  	
+	12. 	Résultat de l'exercice (bénéfice ou perte)  	
+	  	
+		145. 	Amortissements dérogatoires 	
+	  	
+		146. 	Provision spéciale de réévaluation  	
+	  	
+		147. 	Plus-values réinvesties  	
+	  	
+		148. 	Autres provisions réglementées 	
+	  	
+	15. 	Provisions pour risques et charges  	
+	  	
+	16. 	Emprunts et dettes assimilées 	
+	  	
+	  	
+	CLASSE 2 : 	COMPTES D'IMMOBILISATIONS 	
+	  	
+	20. 	Immobilisations incorporelles 	
+	  	
+		201. 	Frais d'établissement 	
+	  	
+		206. 	Droit au bail 	
+	  	
+		207. 	Fonds commercial 	
+	  	
+		208. 	Autres immobilisations incorporelles  	
+	  	
+	21. 	Immobilisations corporelles 	
+	  	
+	23. 	Immobilisations en cours 	
+	  	
+	27. 	Autres immobilisations financières  	
+	  	
+		280. 	Amortissements des immobilisations incorporelles  	
+	  	
+		281. 	Amortissements des immobilisations corporelles  	
+	  	
+		290. 	Dépréciations des immobilisations incorporelles  	
+	  	
+		291. 	Dépréciations des immobilisations corporelles (même ventilation que celle du compte 21)  	
+	  	
+		297. 	Provisions pour dépréciation des autres immobilisations financières  	
+	  	
+	  	
+	CLASSE 3 : 	COMPTES DE STOCKS ET EN-COURS  	
+	  	
+	31. 	Matières premières (et fournitures)  	
+	  	
+	32. 	Autres approvisionnements 	
+	  	
+	33. 	En-cours de production de biens  	
+	  	
+	34. 	En-cours de production de services  	
+	  	
+	35. 	Stocks de produits 	
+	  	
+	37. 	Stocks de marchandises 	
+	  	
+		391. 	Provisions pour dépréciation des matières premières (et fournitures)  	
+	  	
+		392. 	Provisions pour dépréciation des autres approvisionnements  	
+	  	
+		393. 	Provisions pour dépréciation des en-cours de production de biens  	
+	  	
+		394. 	Provisions pour dépréciation des en-cours de production de services  	
+	  	
+		395. 	Provisions pour dépréciation des stocks de produits  	
+	  	
+		397. 	Provisions pour dépréciation des stocks de marchandises  	
+	  	
+	  	
+	CLASSE 4 : 	COMPTES DE TIERS 	
+	  	
+		400. 	Fournisseurs et Comptes rattachés  	
+	  	
+		409. 	Fournisseurs débiteurs 	
+	  	
+		410. 	Clients et comptes rattachés  	
+	  	
+		419. 	Clients créditeurs 	
+	  	
+		421. 	Personnel - Rémunérations dues  	
+	  	
+		428. 	Personnel - Charges à payer et produits à recevoir  	
+	  	
+	43. 	Sécurité sociale et autres organismes sociaux  	
+	  	
+		444. 	Etat - Impôts sur les bénéfices  	
+	  	
+		445. 	Etat - Taxes sur le chiffre d'affaires  	
+	  	
+		447. 	Autres impôts, taxes et versements assimilés  	
+	  	
+	45. 	Groupe et associés  	
+	  	
+		455. 	Associés - Comptes courants  	
+	  	
+	46. 	Débiteurs divers et créditeurs divers  	
+	  	
+	47. 	Comptes transitoires ou d'attente  	
+	  	
+		481. 	Charges à répartir sur plusieurs exercices  	
+	  	
+		486. 	Charges constatées d'avance  	
+	  	
+		487. 	Produits constatés d'avance  	
+	  	
+		491. 	Provisions pour dépréciation des comptes de clients  	
+	  	
+		496. 	Provisions pour dépréciation des comptes de débiteurs divers  	
+	  	
+	  	
+	CLASSE 5 : 	COMPTES FINANCIERS 	
+	  	
+	50. 	Valeurs mobilières de placement  	
+	  	
+	51. 	Banques, établissements financiers et assimilés  	
+	  	
+	53. 	Caisse 	
+	  	
+	54. 	Régies d'avance et accréditifs 	
+	  	
+	58. 	Virements internes 	
+	  	
+		590. 	Provisions pour dépréciation des valeurs mobilières de placement  	
+	  	
+	  	
+	CLASSE 6 : 	COMPTES DE CHARGES 	
+	  	
+	60. 	Achats (sauf 603)  	
+	  	
+	603. 	Variations des stocks (approvisionnements et marchandises)  	
+	  	
+	61. 	Services extérieurs 	
+	  	
+	61/62. 	Autres services extérieurs  	
+	  	
+	63. 	Impôts, taxes et versements assimilés  	
+	  	
+		641. 	Rémunérations du personnel  	
+	  	
+		644. 	Rémunération du travail de l'exploitant  	
+	  	
+		645. 	Charges de sécurité sociale et de prévoyance  	
+	  	
+		646. 	Cotisations sociales personnelles de l'exploitant  	
+	  	
+	65. 	Autres charges de gestion courante  	
+	  	
+	66. 	Charges financières 	
+	  	
+	67. 	Charges exceptionnelles 	
+	  	
+		681. 	Dotations aux amortissements et aux provisions - Charges d'exploitation  	
+	  	
+		686. 	Dotations aux amortissements et aux provisions - Charges financières  	
+	  	
+		687. 	Dotations aux amortissements et aux provisions - Charges exceptionnelles  	
+	  	
+		691. 	Participation des salariés aux résultats  	
+	  	
+		695. 	Impôts sur les bénéfices  	
+	  	
+		697. 	Imposition forfaitaire annuelle des sociétés  	
+	  	
+		699. 	Produits - Reports en arrière des déficits  	
+	  	
+	  	
+	CLASSE 7 : 	COMPTES DE PRODUITS 	
+	  	
+		701. 	Ventes de produits finis 	
+	  	
+		706. 	Prestations de services 	
+	  	
+		707. 	Ventes de marchandises 	
+	  	
+		708. 	Produits des activités annexes  	
+	  	
+		709. 	Rabais, remises et ristournes accordés par l'entreprise  	
+	  	
+		713. 	Variation des stocks (en-cours de production, produits)  	
+	  	
+	72. 	Production immobilisée 	
+	  	
+	74. 	Subventions d'exploitation 	
+	  	
+	75. 	Autres produits de gestion courante  	
+	  	
+		753. 	Jetons de présence et rémunérations d'administrateurs, gérants,...  	
+	  	
+		754. 	Ristournes perçues des coopératives (provenant des excédents)  	
+	  	
+		755. 	Quotes-parts de résultat sur opérations faites en commun  	
+	  	
+	76. 	Produits financiers 	
+	  	
+	77. 	Produits exceptionnels 	
+	  	
+		781. 	Reprises sur amortissements et provisions (à inscrire dans les produits d'exploitation)  	
+	  	
+		786. 	Reprises sur provisions pour risques (à inscrire dans les produits financiers)  	
+	  	
+		787. 	Reprises sur provisions (à inscrire dans les produits exceptionnels)  	
+	  	
+	79. 	Transferts de charges 	
+	  	
+	  	
+	CLASSE 8 : 	COMPTES SPECIAUX* 	
+	  	
+	80. 	Engagements* 	
+	  	
+		801. 	Engagements donnés par l'entité* 	
+	  	
+		809. 	Contrepartie des engagements* 	
+	  	
+	88. 	Résultat en instance d'affectation* 	
+	  	
+	89. 	Bilan*

@@ -1,0 +1,462 @@
+[
+  { 
+    "type"   : "C",
+    "name"   : "Comptes de capitaux",
+    "number" : 1 
+  },
+		  { 
+			"type"   : "A",
+			"name"   : "Capital",
+			"number" : 101 
+		  },
+		  { 
+			"type"   : "A",
+			"name"   : "Ecarts de réévaluation",
+			"number" : 105 
+		  },
+			  { "type"  : "A",
+				"name"   : "Réserve légale",
+				"number" : 1061 
+			  },
+			  { "type"  : "A",
+				"name"   : "Réserves statutaires ou contractuelles",
+				"number" : 1063 
+			  },
+			  { "type"  : "A",
+				"name"   : "Réserves réglementées",
+				"number" : 1064
+			  },
+			  { "type"  : "A",
+				"name"   : "Autres réserves",
+				"number" : 1068
+			  },
+		  { "type"  : "A",
+			"name"   : "Compte de l'exploitant",
+			"number" : 108
+		  },
+	  { "type"  : "A",
+		"name"   : "Résultat de l'exercice (bénéfice ou perte)",
+		"number" : 12
+	  },
+		  { "type"  : "A",
+			"name"   : "Amortissements dérogatoires",
+			"number" : 145
+		  },
+		  { "type"  : "A",
+			"name"   : "Provision spéciale de réévaluation",
+			"number" : 146
+		  },
+		  { "type"  : "A",
+			"name"   : "Plus-values réinvesties",
+			"number" : 147
+		  },
+		  { "type"  : "A",
+			"name"   : "Autres provisions réglementées",
+			"number" : 148
+		  },
+	  { "type"  : "A",
+		"name"   : "Provisions pour risques et charges",
+		"number" : 15
+	  },
+	  { "type"  : "A",
+		"name"   : "Emprunts et dettes assimilées",
+		"number" : 16
+	  },
+	{ "type"  : "C",
+	  "name"   : "Comptes d'immobilisation",
+	  "number" : 2
+	},
+	  { "type"  : "A",
+		"name"   : "Immobilisations incorporelles",
+		"number" : 20
+	  },
+	      { "type"  : "A",
+			"name"   : "Frais d'établissement",
+			"number" : 201
+		  },
+		  { "type"  : "A",
+			"name"   : "Droit au bail",
+			"number" : 206
+		  },
+		  { "type"  : "A",
+			"name"   : "Fonds commercial",
+			"number" : 207
+		  },
+		  { "type"  : "A",
+			"name"   : "Autres immobilisations incorporelles",
+			"number" : 208
+		  },  
+	  { "type"  : "A",
+		"name"   : "Immobilisations corporelles",
+		"number" : 21
+	  },
+	  { "type"  : "A",
+		"name"   : "Immobilisations en cours",
+		"number" : 23
+	  },
+	  { "type"  : "A",
+		"name"   : "Autres immobilisations financières",
+		"number" : 27
+	  },
+		  { "type"  : "A",
+			"name"   : "Amortissements des immobilisations incorporelles",
+			"number" : 280
+		  },
+		  { "type"  : "A",
+			"name"   : "Amortissements des immobilisations corporelles",
+			"number" : 281
+		  },
+		  { "type"  : "A",
+			"name"   : "Dépréciations des immobilisations incorporelles",
+			"number" : 290
+		  },
+		  { "type"  : "A",
+			"name"   : "Dépréciations des immobilisations corporelles (même ventilation que celle du compte 21)",
+			"number" : 291
+		  },
+		  { "type"  : "A",
+			"name"   : "Provisions pour dépréciation des autres immobilisations financières",
+			"number" : 297
+		  },
+	{ "type"  : "C",
+	  "name"   : "Comptes de Stock et En-Cours",
+	  "number" : 3
+	},
+	  { "type"  : "A",
+		"name"   : "Matières premières (et fournitures)",
+		"number" : 31
+	  },
+	  { "type"  : "A",
+		"name"   : "Autres approvisionnements",
+		"number" : 32
+	  },
+	  { "type"  : "A",
+		"name"   : "En-cours de production de biens",
+		"number" : 33
+	  },
+	  { "type"  : "A",
+		"name"   : "En-cours de production de services",
+		"number" : 34
+	  },
+	  { "type"  : "A",
+		"name"   : "Stocks de produits",
+		"number" : 35
+	  },
+	  { "type"  : "A",
+		"name"   : "Stocks de marchandises",
+		"number" : 37
+	  },
+		  { "type"  : "A",
+			"name"   : "Provisions pour dépréciation des matières premières (et fournitures)",
+			"number" : 391
+		  },
+		  { "type"  : "A",
+			"name"   : "Provisions pour dépréciation des autres approvisionnements",
+			"number" : 392
+		  },
+		  { "type"  : "A",
+			"name"   : "Provisions pour dépréciation des en-cours de production de biens",
+			"number" : 393
+		  },
+		  { "type"  : "A",
+			"name"   : "Provisions pour dépréciation des en-cours de production de services",
+			"number" : 394
+		  },
+		  { "type"  : "A",
+			"name"   : "Provisions pour dépréciation des stocks de produits",
+			"number" : 395
+		  },
+		  { "type"  : "A",
+			"name"   : "Provisions pour dépréciation des stocks de marchandises",
+			"number" : 397
+		  },
+	{ "type"  : "C",
+	  "name"   : "Comptes de Tiers",
+	  "number" : 4
+	},
+		  { "type"  : "A",
+			"name"   : "Fournisseurs et Comptes rattachés",
+			"number" : 400
+		  },
+		  { "type"  : "A",
+			"name"   : "Fournisseurs débiteurs",
+			"number" : 409
+		  },
+		  { "type"  : "A",
+			"name"   : "Clients et comptes rattachés",
+			"number" : 410
+		  },
+		  { "type"  : "A",
+			"name"   : "Clients créditeurs",
+			"number" : 419
+		  },
+		  { "type"  : "A",
+			"name"   : "Personnel - Rémunérations dues",
+			"number" : 421
+		  },
+		  { "type"  : "A",
+			"name"   : "Personnel - Charges à payer et produits à recevoir",
+			"number" : 428
+		  },
+	  { "type"  : "A",
+		"name"   : "Sécurité sociale et autres organismes sociaux",
+		"number" : 43
+	  },
+		  { "type"  : "A",
+			"name"   : "Etat - Impôts sur les bénéfices",
+			"number" : 444
+		  },
+		  { "type"  : "A",
+			"name"   : "Etat - Taxes sur le chiffre d'affaires",
+			"number" : 445
+		  },
+		  { "type"  : "A",
+			"name"   : "Autres impôts, taxes et versements assimilés",
+			"number" : 447
+		  },
+	  { "type"  : "A",
+		"name"   : "Groupe et associés",
+		"number" : 45
+	  },
+		  { "type"  : "A",
+			"name"   : "Associés - Comptes courants",
+			"number" : 455
+		  },
+	  { "type"  : "A",
+		"name"   : "Débiteurs divers et créditeurs divers",
+		"number" : 46
+	  },
+	  { "type"  : "A",
+		"name"   : "Comptes transitoires ou d'attente",
+		"number" : 47
+	  },
+		  { "type"  : "A",
+			"name"   : "Charges à répartir sur plusieurs exercices",
+			"number" : 481
+		  },
+		  { "type"  : "A",
+			"name"   : "Charges constatées d'avance",
+			"number" : 486
+		  },
+		  { "type"  : "A",
+			"name"   : "Produits constatés d'avance",
+			"number" : 487
+		  },
+		  { "type"  : "A",
+			"name"   : "Provisions pour dépréciation des comptes de clients",
+			"number" : 491
+		  },
+		  { "type"  : "A",
+			"name"   : "Provisions pour dépréciation des comptes de débiteurs divers",
+			"number" : 496
+		  },
+	{ "type"  : "C",
+	  "name"   : "Comptes financiers",
+	  "number" : 5
+	},
+	  { "type"  : "A",
+		"name"   : "Valeurs mobilières de placement",
+		"number" : 50
+	  },
+	  { "type"  : "A",
+		"name"   : "Banques, établissements financiers et assimilés",
+		"number" : 51
+	  },
+	  { "type"  : "A",
+		"name"   : "Caisse",
+		"number" : 53
+	  },
+	  { "type"  : "A",
+		"name"   : "Régies d'avance et accréditifs",
+		"number" : 54
+	  },
+	  { "type"  : "A",
+		"name"   : "Virements internes",
+		"number" : 54
+	  },
+		  { "type"  : "A",
+			"name"   : "Provisions pour dépréciation des valeurs mobilières de placement",
+			"number" : 590
+		  },
+	{ "type"  : "C",
+	  "name"   : "Comptes de charges",
+	  "number" : 6
+	},
+	  { "type"  : "A",
+		"name"   : "Achats (sauf 603)",
+		"number" : 60
+	  },
+		  { "type"  : "A",
+			"name"   : "Variations des stocks (approvisionnements et marchandises)",
+			"number" : 603,
+			"description": "Le compte 603 &quot; Variation des stocks &quot; est réservé à l'enregistrement des variations de stocks d'approvisionnements et de marchandises.<br/>Les soldes des subdivisions 6031 &quot; Variation des stocks de matières premières (et fournitures) &quot;, 6032 &quot; Variation des stocks des autres approvisionnements &quot; et 6037 &quot; Variation des stocks de marchandises &quot; du compte 603 représentent la différence existant entre la valeur des stocks d'approvisionnements et de marchandises à la clôture de l'exercice et la valeur desdits stocks à la clôture de l'exercice précédent, c'est-à-dire la différence de valeur entre le stock final, dit stock de sortie, et le stock initial, dit stock d'entrée, compte non tenu des dépréciations.<br/> Ces comptes de variation des stocks sont débités, pour les éléments qui les concernent, de la valeur du stock initial et crédités de la valeur du stock final. En conséquence, le solde du compte 603 représente la variation globale de la valeur du stock entre le début et la fin de l'exercice.<br/> Les soldes des comptes 6037 d'une part, 6031 et 6032 d'autre part, peuvent être créditeurs ou débiteurs. Ils figurent dans le modèle de compte de résultat comme comptes correcteurs en moins ou en plus des achats de marchandises d'une part, des approvisionnements d'autre part."
+		  },
+	  { "type"  : "A",
+		"name"   : "Services extérieurs",
+		"number" : 61
+	  },
+	  { "type"  : "A",
+		"name"   : "Autres services extérieurs",
+		"number" : 62
+	  },
+	  { "type"  : "A",
+		"name"   : "Impôts, taxes et versements assimilés",
+		"number" : 63
+	  },
+		  { "type"  : "A",
+			"name"   : "Rémunérations du personnel",
+			"number" : 641
+		  },
+		  { "type"  : "A",
+			"name"   : "Rémunération du travail de l'exploitant",
+			"number" : 644
+		  },
+		  { "type"  : "A",
+			"name"   : "Charges de sécurité sociale et de prévoyance",
+			"number" : 645
+		  },
+		  { "type"  : "A",
+			"name"   : "Cotisations sociales personnelles de l'exploitant",
+			"number" : 646
+		  },
+	  { "type"  : "A",
+		"name"   : "Autres charges de gestion courante",
+		"number" : 65
+	  },
+	  { "type"  : "A",
+		"name"   : "Charges financières",
+		"number" : 66
+	  },
+	  { "type"  : "A",
+		"name"   : "Charges exceptionnelles ",
+		"number" : 67
+	  },
+		  { "type"  : "A",
+			"name"   : "Dotations aux amortissements et aux provisions - Charges d'exploitation",
+			"number" : 681
+		  },
+		  { "type"  : "A",
+			"name"   : "Dotations aux amortissements et aux provisions - Charges financières",
+			"number" : 686
+		  },
+		  { "type"  : "A",
+			"name"   : "Dotations aux amortissements et aux provisions - Charges exceptionnelles",
+			"number" : 687
+		  },
+		  { "type"  : "A",
+			"name"   : "Participation des salariés aux résultats",
+			"number" : 691
+		  },
+		  { "type"  : "A",
+			"name"   : "Impôts sur les bénéfices",
+			"number" : 695
+		  },
+		  { "type"  : "A",
+			"name"   : "Imposition forfaitaire annuelle des sociétés",
+			"number" : 697
+		  },
+		  { "type"  : "A",
+			"name"   : "Produits - Reports en arrière des déficits",
+			"number" : 699
+		  },
+	{ "type"  : "C",
+	  "name"   : "Comptes de Produit",
+	  "number" : 7
+	},
+		  { "type"  : "A",
+			"name"   : "Ventes de produits finis",
+			"number" : 701
+		  },
+		  { "type"  : "A",
+			"name"   : "Prestations de services",
+			"number" : 706
+		  },
+		  { "type"  : "A",
+			"name"   : "Ventes de marchandises",
+			"number" : 707
+		  },
+		  { "type"  : "A",
+			"name"   : "Produits des activités annexes",
+			"number" : 708
+		  },
+		  { "type"  : "A",
+			"name"   : "Rabais, remises et ristournes accordés par l'entreprise",
+			"number" : 709
+		  },
+		  { "type"  : "A",
+			"name"   : "Variation des stocks (en-cours de production, produits)",
+			"number" : 713
+		  },
+	  { "type"  : "A",
+		"name"   : "Production immobilisée",
+		"number" : 72
+	  },
+	  { "type"  : "A",
+		"name"   : "Subventions d'exploitation",
+		"number" : 74
+	  },
+	  { "type"  : "A",
+		"name"   : "Autres produits de gestion courante",
+		"number" : 75
+	  },
+		  { "type"  : "A",
+			"name"   : "Jetons de présence et rémunérations d'administrateurs, gérants,...",
+			"number" : 753
+		  },
+		  { "type"  : "A",
+			"name"   : "Ristournes perçues des coopératives (provenant des excédents)",
+			"number" : 754
+		  },
+		  { "type"  : "A",
+			"name"   : "Quotes-parts de résultat sur opérations faites en commun",
+			"number" : 755
+		  },
+	  { "type"  : "A",
+		"name"   : "Produits financiers",
+		"number" : 76
+	  },
+	  { "type"  : "A",
+		"name"   : "Produits exceptionnels",
+		"number" : 77
+	  },
+		  { "type"  : "A",
+			"name"   : "Reprises sur amortissements et provisions (à inscrire dans les produits d'exploitation)",
+			"number" : 781
+		  },
+		  { "type"  : "A",
+			"name"   : "Reprises sur provisions pour risques (à inscrire dans les produits financiers)",
+			"number" : 786
+		  },
+		  { "type"  : "A",
+			"name"   : "Reprises sur provisions (à inscrire dans les produits exceptionnels)",
+			"number" : 787
+		  },
+	  { "type"  : "A",
+		"name"   : "Transferts de charges",
+		"number" : 79
+	  },
+	{ "type"  : "C",
+	  "name"   : "Comptes speciaux",
+	  "number" : 8
+	},
+	  { "type"  : "A",
+		"name"   : "Engagements",
+		"number" : 80
+	  },
+		  { "type"  : "A",
+			"name"   : "Engagements donnés par l'entité",
+			"number" : 801
+		  },
+		  { "type"  : "A",
+			"name"   : "Contrepartie des engagements",
+			"number" : 809
+		  },
+	  { "type"  : "A",
+		"name"   : "Résultat en instance d'affectation",
+		"number" : 88
+	  },
+	  { "type"  : "A",
+		"name"   : "Bilan",
+		"number" : 89
+	  }
+]

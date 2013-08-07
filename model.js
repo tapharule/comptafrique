@@ -13,17 +13,18 @@ var bootweb = require("bootweb"),
         sparse: true
       }
     },
-    classe: {
-      type: String,
-      required: true,
-      index: {
-        sparse: true
-      }
-    },
     number: {
       type: Number,
       required: true
-    }
+    },
+	type: { 
+      type: String,
+      required: true,
+	  enum: [ "C", "A", "B", "D"]// type d'entrée (Classe, compte du plan Abbrégé, Base ou Développé)
+    },
+	description: {
+	  type: String
+	}
   }, {strict: false}),
   Accounts = new Schema({
     name: {
